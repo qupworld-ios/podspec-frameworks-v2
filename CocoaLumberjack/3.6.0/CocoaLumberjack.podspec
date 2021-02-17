@@ -27,12 +27,12 @@ Pod::Spec.new do |s|
   s.default_subspecs = 'Core'
 
   s.subspec 'Core' do |ss|
-    ss.vendored_frameworks = "CocoaLumberjack/CocoaLumberjack.xcframework"
+    ss.vendored_frameworks = "CocoaLumberjack.xcframework"
   end
 
   s.subspec 'Swift' do |ss|
     ss.dependency 'CocoaLumberjack/Core'
-    ss.vendored_frameworks = "CocoaLumberjack/CocoaLumberjackSwift.xcframework"
+    ss.vendored_frameworks = "CocoaLumberjackSwift.xcframework"
   end
 
 end
