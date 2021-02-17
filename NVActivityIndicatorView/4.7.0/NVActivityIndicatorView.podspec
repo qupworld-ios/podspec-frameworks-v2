@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.swift_version          = '5.0'
 
-  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/XLPagerTabStrip.xcframework.zip" }
+  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/NVActivityIndicatorView.xcframework.zip" }
 
   s.subspec 'Presenter' do |ps|
     ps.vendored_frameworks = "NVActivityIndicatorView.xcframework"
