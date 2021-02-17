@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     ps.vendored_frameworks = "NVActivityIndicatorView.xcframework"
   end
   s.subspec 'AppExtension' do |aes|
-    ps.vendored_frameworks = "NVActivityIndicatorViewAppExtension.xcframework"
+    aes.vendored_frameworks = "NVActivityIndicatorViewAppExtension.xcframework"
   end
   s.default_subspec = 'Presenter'
   s.frameworks = 'UIKit', 'QuartzCore'
