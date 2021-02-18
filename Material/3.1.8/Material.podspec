@@ -15,6 +15,9 @@ Pod::Spec.new do |s|
 		s.ios.deployment_target = '8.0'
 		s.requires_arc = true
         s.vendored_frameworks = "*.xcframework"
+
+		# s.dependency 'Motion', '3.1.3'
+        # Motion.xcframework is in the zip source
 	end
 
     s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/Material_3.1.8.zip" }
