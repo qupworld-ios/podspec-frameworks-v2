@@ -17,14 +17,18 @@
 #github "hackiftekhar/IQKeyboardManager" == 6.2.0
 #github "pkluz/PKHUD" == 5.3.0
 
+
 # ==============================
 # Driver
 #github "hackiftekhar/IQKeyboardManager" == 6.5.5
 #github "dataminr/DTMHeatmap" == 1.0
-
-github "ReactiveX/RxSwift" "5.1.1"
+#github "ReactiveX/RxSwift" == 5.1.1
+#github "CosmicMind/Material" == 3.1.8
 
 
 # ==============================
 # Conflict framework name CocoaLumberjack & CocoaLumberjackSwift
 # github "CocoaLumberjack/CocoaLumberjack" == 3.6.0
+
+# Build failed
+# github "MessageKit/MessageKit" == 3.1.0
