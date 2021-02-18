@@ -24,7 +24,7 @@
 #github "dataminr/DTMHeatmap" == 1.0
 #github "ReactiveX/RxSwift" == 5.1.1
 #github "CosmicMind/Material" == 3.1.8
-
+#github "qupworld-ios/socket.io-client-swift" "1.0-xcode-12-carthage"
 
 # ==============================
 # Conflict framework name CocoaLumberjack & CocoaLumberjackSwift
@@ -32,3 +32,4 @@
 
 # Build failed
 # github "MessageKit/MessageKit" == 3.1.0
+# github "socketio/socket.io-client-swift" ~> 15.2.0
