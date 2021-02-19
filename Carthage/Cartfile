@@ -17,7 +17,6 @@
 #github "hackiftekhar/IQKeyboardManager" == 6.2.0
 #github "pkluz/PKHUD" == 5.3.0
 
-
 # ==============================
 # Driver
 #github "hackiftekhar/IQKeyboardManager" == 6.5.5
@@ -25,11 +24,17 @@
 #github "ReactiveX/RxSwift" == 5.1.1
 #github "CosmicMind/Material" == 3.1.8
 #github "qupworld-ios/socket.io-client-swift" "1.0-xcode-12-carthage"
+#github "patchthecode/JTAppleCalendar" == 7.1.8
 
 # ==============================
 # Conflict framework name CocoaLumberjack & CocoaLumberjackSwift
 # github "CocoaLumberjack/CocoaLumberjack" == 3.6.0
 
-# Build failed
+# ==============================
+# Build failed. You must manual update the dependency xcframework in project source
 # github "MessageKit/MessageKit" == 3.1.0
 # github "socketio/socket.io-client-swift" ~> 15.2.0
+
+# Build failed
+#github "facebook/facebook-ios-sdk" == 7.1.1
+
