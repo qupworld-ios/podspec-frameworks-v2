@@ -16,7 +16,7 @@
   },
   "social_media_url": "https://twitter.com/tuckeredoutfmly",
   "requires_arc": true,
-  "source_files": "FittedSheets/**/*.swift",
+  "vendored_frameworks": "*.xcframework",
   "frameworks": [],
   "swift_version": "5.0"
 }
