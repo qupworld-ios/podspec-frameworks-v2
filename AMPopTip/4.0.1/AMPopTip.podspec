@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
     s.swift_version = '5.0'
     s.requires_arc  = true
     s.social_media_url = 'https://twitter.com/theandreamazz'
-    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/AMPopTip.xcframework.zip" }
+    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/AMPopTip.xcframework.zip" }
     s.vendored_frameworks = "*.xcframework"
 end

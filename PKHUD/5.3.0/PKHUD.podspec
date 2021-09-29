@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target     = '8.0'
   s.requires_arc              = true
   s.swift_version             = '5.0'
-  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/PKHUD.xcframework.zip" }
+  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/PKHUD.xcframework.zip" }
   s.vendored_frameworks = "*.xcframework"
 end

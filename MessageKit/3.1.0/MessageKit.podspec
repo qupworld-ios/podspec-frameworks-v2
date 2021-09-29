@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   # InputBarAccessoryView.xcframework is in the zip source
   # s.dependency 'InputBarAccessoryView', '~> 4.3.0'
 
-  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/MessageKit_3.1.0.zip" }
+  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/MessageKit_3.1.0.zip" }
   s.vendored_frameworks = "*.xcframework"
 end

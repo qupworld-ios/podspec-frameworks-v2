@@ -25,7 +25,7 @@ For the first time, designers can create and ship beautiful animations without a
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
 
-  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/Lottie_3.1.9.xcframework.zip" }
+  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/Lottie_3.1.9.xcframework.zip" }
   s.vendored_frameworks = "*.xcframework"
 
   s.ios.frameworks = ['UIKit', 'CoreGraphics', 'QuartzCore']

@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.ios.frameworks = 'UIKit', 'Foundation'
   s.swift_version = "4.2"
 
-  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/XLPagerTabStrip.xcframework.zip" }
+  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/XLPagerTabStrip.xcframework.zip" }
   s.vendored_frameworks = "*.xcframework"
 end

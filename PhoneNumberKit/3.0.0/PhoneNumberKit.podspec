@@ -39,6 +39,6 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 
-  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/PhoneNumberKit.xcframework.zip" }
+  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/PhoneNumberKit.xcframework.zip" }
   s.vendored_frameworks = "*.xcframework"
 end

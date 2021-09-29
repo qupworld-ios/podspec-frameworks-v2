@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
         # Motion.xcframework is in the zip source
 	end
 
-    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/Material_3.1.8.zip" }
+    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/Material_3.1.8.zip" }
 end

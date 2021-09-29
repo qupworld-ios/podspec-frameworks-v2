@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
 
   s.ios.deployment_target = "8.0"
-  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/Kingfisher.xcframework.zip" }
+  s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/Kingfisher.xcframework.zip" }
   s.vendored_frameworks = "*.xcframework"
 
   s.requires_arc = true

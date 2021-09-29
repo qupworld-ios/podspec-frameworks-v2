@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
     s.swift_version = "5.0"
   
     # s.dependency 'Starscream', '~> 0.9' # currently this repo includes Starscream swift files
-    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/Socket.IO-Client-Swift-V1_9.0.1.xcframework.zip" }
+    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/Socket.IO-Client-Swift-V1_9.0.1.xcframework.zip" }
     s.vendored_frameworks = "*.xcframework"
   end

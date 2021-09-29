@@ -2,7 +2,7 @@
   "name": "IQKeyboardManagerSwift",
   "version": "6.5.5",
   "source": {
-    "http": "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/IQKeyboardManagerSwift_6.5.5.xcframework.zip"
+    "http": "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/IQKeyboardManagerSwift_6.5.5.xcframework.zip"
   },
   "summary": "Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView.",
   "homepage": "https://github.com/hackiftekhar/IQKeyboardManager",

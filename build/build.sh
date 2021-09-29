@@ -31,7 +31,6 @@ for PLATFORM in "iOS" "iOS Simulator"; do
     perl -i -p0e 's/(library[^,]*,)/$1 type: .dynamic,/g' Package.swift
 
     xcodebuild archive \
-            # -workspace .
             -project Pods.xcodeproj \
             -scheme $NAME \
             -destination "generic/platform=$PLATFORM" \
@@ -66,9 +65,21 @@ for PLATFORM in "iOS" "iOS Simulator"; do
 
 done
 
+# echo "XCFramework: Generating IPHONE BCSymbolMap paths..."
+# IPHONE_BCSYMBOLMAP_PATHS=(Release-iphoneos.xcarchive/BCSymbolMaps/*)
+# IPHONE_BCSYMBOLMAP_COMMANDS=""
+# for path in "${IPHONE_BCSYMBOLMAP_PATHS[@]}"; do
+#   IPHONE_BCSYMBOLMAP_COMMANDS="$IPHONE_BCSYMBOLMAP_COMMANDS -debug-symbols $path "
+# done
+
+echo "XCFramework: Creating XCFramework file"
 BINARY_PATH=Products/Library/Frameworks
 #BINARY_PATH=Products/usr/local/lib
 xcodebuild -create-xcframework \
 -framework Release-iphoneos.xcarchive/$BINARY_PATH/$NAME.framework \
 -framework Release-iphonesimulator.xcarchive/$BINARY_PATH/$NAME.framework \
 -output $NAME.xcframework
+
+# $IPHONE_BCSYMBOLMAP_COMMANDS \
+# -debug-symbols "Release-iphoneos.xcarchive/dSYMs/$NAME.framework.dSYM" \
+# -debug-symbols "Release-iphonesimulator.xcarchive/dSYMs/$NAME.framework.dSYM" \

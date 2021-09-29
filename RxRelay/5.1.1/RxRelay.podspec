@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
     s.dependency 'RxSwift', '5.1.1'
     s.swift_version = '5.0'
 
-    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks/releases/download/1.0.0/RxRelay_5.1.1.xcframework.zip" }
+    s.source       = { :http => "https://github.com/qupworld-ios/podspec-frameworks-xcode13/releases/download/1.0.0/RxRelay_5.1.1.xcframework.zip" }
     s.vendored_frameworks = "*.xcframework"
   end
