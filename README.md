@@ -1,5 +1,5 @@
 # Podspecs xcframework
-All prebuilt podspecs are used for our apps
+All prebuilt (swift 5.3) podspecs are used for our apps
 
 # Create new specs
 1. Build the binary with `Carthage`
