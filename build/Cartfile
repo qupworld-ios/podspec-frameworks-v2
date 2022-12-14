@@ -18,11 +18,12 @@
 #github "pkluz/PKHUD" == 5.3.0
 #github "airbnb/lottie-ios" "3.1.9"
 # Driver
-#github "dataminr/DTMHeatmap" == 1.0
+#github "dataminr/DTMHeatmap" "master"
 #github "ReactiveX/RxSwift" == 5.1.1
 #github "qupworld-ios/socket.io-client-swift" "1.0-xcode-12-carthage"
 #github "patchthecode/JTAppleCalendar" == 7.1.8
 #github "nhuanvd/FittedSheets" "compatible"
+github "gordontucker/FittedSheets" ~> 2.5.3
 
 # ==============================
 # Build rieng
@@ -37,7 +38,3 @@
 # ==============================
 # Conflict framework name CocoaLumberjack & CocoaLumberjackSwift
 # github "CocoaLumberjack/CocoaLumberjack" == 3.6.0
-
-# Build failed
-#github "facebook/facebook-ios-sdk" == 7.1.1
-
